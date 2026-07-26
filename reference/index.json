@@ -1,0 +1,42 @@
+{
+  "version": "1.0",
+  "updated": "2026-07-26",
+  "files": {
+    "core": {
+      "url": "https://raw.githubusercontent.com/Bohdan-Voznik/seller_iq_skill/main/reference/core.md",
+      "when": "завжди, перед будь-якою роботою з даними SellerIQ"
+    },
+    "order-item": {
+      "url": "https://raw.githubusercontent.com/Bohdan-Voznik/seller_iq_skill/main/reference/order-item-snapshot.md",
+      "when": "продажі, прибуток, собівартість, клієнти, менеджери, доставка, оплати, статуси замовлень, директиви @siq"
+    },
+    "positions": {
+      "url": "https://raw.githubusercontent.com/Bohdan-Voznik/seller_iq_skill/main/reference/product-position-snapshot.md",
+      "when": "позиції у видачі, пошукові запити, конкуренти по позиціях, SERP, ціни на картці власного товару"
+    },
+    "extra-positions": {
+      "url": "https://raw.githubusercontent.com/Bohdan-Voznik/seller_iq_skill/main/reference/extra-product-position-snapshot.md",
+      "when": "конкуренти з першої сторінки видачі, порівняння з конкурентами саме по позиціях (не по залишках)"
+    },
+    "ads": {
+      "url": "https://raw.githubusercontent.com/Bohdan-Voznik/seller_iq_skill/main/reference/ad-item-snapshot.md",
+      "when": "реклама, кампанії, ДРР, CPO/CPC, витрата бюджету, ефективність рекламних кампаній"
+    },
+    "stock": {
+      "url": "https://raw.githubusercontent.com/Bohdan-Voznik/seller_iq_skill/main/reference/stock-snapshot.md",
+      "when": "залишки, швидкість продажів, поповнення складу, продажі конкурентів по залишках"
+    },
+    "lookup": {
+      "url": "https://raw.githubusercontent.com/Bohdan-Voznik/seller_iq_skill/main/reference/lookup-tables.md",
+      "when": "робота з довідниками products_crm/products_rozetka, зіставлення CRM і Rozetka, наповнення, верифікація через xlsx"
+    },
+    "onboarding": {
+      "url": "https://raw.githubusercontent.com/Bohdan-Voznik/seller_iq_skill/main/reference/onboarding.md",
+      "when": "перше підключення, налаштування, зміна конфігу business context, немає ще жодних подій у проєкті"
+    },
+    "recipes": {
+      "url": "https://raw.githubusercontent.com/Bohdan-Voznik/seller_iq_skill/main/reference/recipes.md",
+      "when": "потрібен приклад готового розрізу чи звіту під типову задачу (утримання, викуп, порівняння з конкурентами тощо)"
+    }
+  }
+}
