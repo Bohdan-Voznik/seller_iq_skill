@@ -1,10 +1,14 @@
 {
-  "version": "1.7",
+  "version": "1.8",
   "updated": "2026-07-29",
   "files": {
     "core": {
       "url": "https://raw.githubusercontent.com/Bohdan-Voznik/seller_iq_skill/main/reference/core.md",
       "when": "завжди, перед будь-якою роботою з даними SellerIQ"
+    },
+    "connector-setup": {
+      "url": "https://raw.githubusercontent.com/Bohdan-Voznik/seller_iq_skill/main/reference/connector-setup.md",
+      "when": "перший виклик Mixpanel-інструменту падає з помилкою підключення (не project/business-context помилка, а сам конектор відсутній) — покрокова інструкція під Claude.ai/Claude Desktop/Claude Code/ChatGPT"
     },
     "order-item": {
       "url": "https://raw.githubusercontent.com/Bohdan-Voznik/seller_iq_skill/main/reference/order-item-snapshot.md",
