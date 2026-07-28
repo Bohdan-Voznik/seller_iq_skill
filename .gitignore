@@ -29,7 +29,7 @@ vendor/
 
 # Maven
 target/
-dist/
+dist/ине р
 
 # JetBrains IDE
 .idea/
@@ -55,7 +55,7 @@ Thumbs.db
 *.flv
 *.mov
 *.wmv
-*.zip
+*.zipд
 
 
 # Sentry Config File
