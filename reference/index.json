@@ -28,11 +28,11 @@
     },
     "lookup": {
       "url": "https://raw.githubusercontent.com/Bohdan-Voznik/seller_iq_skill/main/reference/lookup-tables.md",
-      "when": "робота з довідниками products_crm/products_rozetka, зіставлення CRM і Rozetka, наповнення, верифікація через xlsx"
+      "when": "базові схеми/ступені/словник типів позицій уже вбудовані в SKILL.md, не потребують підвантаження; цей файл — лише для процесу верифікації, xlsx-циклу і рідкісних технічних деталей"
     },
     "onboarding": {
       "url": "https://raw.githubusercontent.com/Bohdan-Voznik/seller_iq_skill/main/reference/onboarding.md",
-      "when": "перше підключення, налаштування, зміна конфігу business context, немає ще жодних подій у проєкті"
+      "when": "порядок кроків і приклад блоку вже вбудовані в SKILL.md, не потребують підвантаження; цей файл — лише для нюансів автоматичного режиму і розгорнутих пояснень"
     },
     "recipes": {
       "url": "https://raw.githubusercontent.com/Bohdan-Voznik/seller_iq_skill/main/reference/recipes.md",
