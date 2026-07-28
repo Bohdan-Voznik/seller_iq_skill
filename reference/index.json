@@ -1,6 +1,6 @@
 {
-  "version": "1.1",
-  "updated": "2026-07-28",
+  "version": "1.6",
+  "updated": "2026-07-29",
   "files": {
     "core": {
       "url": "https://raw.githubusercontent.com/Bohdan-Voznik/seller_iq_skill/main/reference/core.md",
@@ -37,6 +37,14 @@
     "recipes": {
       "url": "https://raw.githubusercontent.com/Bohdan-Voznik/seller_iq_skill/main/reference/recipes.md",
       "when": "потрібен приклад готового розрізу чи звіту під типову задачу (утримання, викуп, порівняння з конкурентами тощо)"
+    },
+    "lookup-template": {
+      "url": "https://raw.githubusercontent.com/Bohdan-Voznik/seller_iq_skill/main/reference/templates/products_crm-template.xlsx",
+      "when": "формування xlsx-чернетки products_crm на верифікацію користувачу (онбординг, крок 4-5) — бінарний .xlsx, не markdown; завантажити curl'ом, заповнити рядки з рядка 2, зберігаючи спадні списки й умовне форматування (деталі — lookup-tables.md, «Шаблони xlsx для верифікації»)"
+    },
+    "lookup-template-rozetka": {
+      "url": "https://raw.githubusercontent.com/Bohdan-Voznik/seller_iq_skill/main/reference/templates/products_rozetka-template.xlsx",
+      "when": "формування xlsx-чернетки products_rozetka на верифікацію користувачу — бінарний .xlsx, не markdown; та сама механіка, що й lookup-template, деталі — lookup-tables.md, «Шаблони xlsx для верифікації»"
     }
   }
 }
