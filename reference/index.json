@@ -1,6 +1,6 @@
 {
-  "version": "1.8",
-  "updated": "2026-07-29",
+  "version": "1.12",
+  "updated": "2026-07-30",
   "files": {
     "core": {
       "url": "https://raw.githubusercontent.com/Bohdan-Voznik/seller_iq_skill/main/reference/core.md",
